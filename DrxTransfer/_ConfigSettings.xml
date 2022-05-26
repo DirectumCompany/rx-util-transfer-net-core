@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <var name="INTEGRATION_SERVICE_URL" value="http://localhost:81/integration/odata/" />
+  <var name="INTEGRATION_SERVICE_REQUEST_TIMEOUT" value="600" />
+</settings>

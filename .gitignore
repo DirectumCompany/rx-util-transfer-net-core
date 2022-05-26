@@ -1,0 +1,4 @@
+*.dll
+[Bb]in
+[Dd]ebug*/
+package*/

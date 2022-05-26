@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Belov_AlS\.nuget\packages\nlog.config\4.7.11\contentFiles\any\any\NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+    <PackageReference Include="NDesk.Options.Core" Version="1.2.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NLog.Config" Version="4.7.11" />
+    <PackageReference Include="Simple.OData.Client" Version="5.24.0" />
+    <PackageReference Include="System.CodeDom" Version="5.0.0" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="5.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Private.ServiceModel" Version="4.8.1" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="5.0.0" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CommandLineArgumentsParser">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\CommandLineArgumentsParser.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonLibrary">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigSettings">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\ConfigSettings.dll</HintPath>
+    </Reference>
+    <Reference Include="Sungero.Domain.Client">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\Sungero.Domain.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sungero.Domain.ClientBase">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\Sungero.Domain.ClientBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Sungero.Domain.Shared">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\Sungero.Domain.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Sungero.Logging">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\Sungero.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Sungero.Metadata">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\Sungero.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Sungero.Plugins">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\Sungero.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="Sungero.Plugins.Sdk">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\Sungero.Plugins.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Sungero.Presentation">
+      <HintPath>..\..\..\..\..\..\Program Files\Directum Company\Sungero Development Studio\Utilities\DrxUtil\Sungero.Presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="_ConfigSettings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
