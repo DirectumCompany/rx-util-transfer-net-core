@@ -296,8 +296,25 @@
           "lib/netcoreapp3.1/System.Text.Json.dll": {}
         },
         "build": {
-          "build/System.Text.Json.targets": {},
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "DrxTransfer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ConfigSettings": "1.0.12",
+          "NLog": "5.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Simple.OData.Client": "5.26.0",
+          "System.CommandLine": "2.0.0-beta1.20574.7",
+          "System.ComponentModel.Composition": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DrxTransfer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DrxTransfer.dll": {}
         }
       }
     }
@@ -902,16 +919,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DrxTransfer/1.0.0": {
+      "type": "project",
+      "path": "../DrxTransfer/DrxTransfer.csproj",
+      "msbuildProject": "../DrxTransfer/DrxTransfer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ConfigSettings >= 1.0.12",
-      "NLog >= 5.0.0",
-      "Newtonsoft.Json >= 12.0.3",
-      "Simple.OData.Client >= 5.26.0",
-      "System.CommandLine >= 2.0.0-beta1.20574.7",
-      "System.ComponentModel.Composition >= 6.0.0"
+      "DrxTransfer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -921,11 +938,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\DrxTransfer\\DrxTransfer\\DrxTransfer.csproj",
-      "projectName": "DrxTransfer",
-      "projectPath": "C:\\source\\DrxTransfer\\DrxTransfer\\DrxTransfer.csproj",
+      "projectUniqueName": "C:\\source\\DrxTransfer\\TransferSerializes\\TransferSerializes.csproj",
+      "projectName": "TransferSerializes",
+      "projectPath": "C:\\source\\DrxTransfer\\TransferSerializes\\TransferSerializes.csproj",
       "packagesPath": "C:\\Users\\Ryabov_PI\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\DrxTransfer\\DrxTransfer\\obj\\",
+      "outputPath": "C:\\source\\DrxTransfer\\TransferSerializes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -945,7 +962,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\source\\DrxTransfer\\DrxTransfer\\DrxTransfer.csproj": {
+              "projectPath": "C:\\source\\DrxTransfer\\DrxTransfer\\DrxTransfer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -957,32 +978,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
-        "dependencies": {
-          "ConfigSettings": {
-            "target": "Package",
-            "version": "[1.0.12, )"
-          },
-          "NLog": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[12.0.3, )"
-          },
-          "Simple.OData.Client": {
-            "target": "Package",
-            "version": "[5.26.0, )"
-          },
-          "System.CommandLine": {
-            "target": "Package",
-            "version": "[2.0.0-beta1.20574.7, )"
-          },
-          "System.ComponentModel.Composition": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

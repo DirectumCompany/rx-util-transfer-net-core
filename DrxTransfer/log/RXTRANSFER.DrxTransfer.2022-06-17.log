@@ -1,0 +1,11 @@
+
+2022-06-17 12:54:41.3138 ************** DrxTransfer started **************
+
+2022-06-17 12:54:41.1762 1.0.0.0  17720+1  Info         ApplicationStarted -  Application started  [unknown :unknown] 
+2022-06-17 12:54:42.6066 1.0.0.0  17720+8  Debug rxTransfer.TransferEngine -  Загрузка сериализатора  [unknown :unknown] 
+2022-06-17 12:54:42.8748 1.0.0.0  17720+8  Debug rxTransfer.TransferEngine -  Сериализатор ApprovalRule успешно загружен  [unknown :unknown] 
+2022-06-17 12:54:42.8857 1.0.0.0  17720+8  Debug ransfer.SungeroSerializer -  Сериализация объектов типа IApprovalRuleBase  [unknown :unknown] 
+2022-06-17 12:54:46.4696 1.0.0.0  17720+8  Info  ransfer.SungeroSerializer -  Запись результата в файл  [unknown :unknown] 
+
+2022-06-17 12:54:46.4936 ************** DrxTransfer closed **************
+

@@ -2,11 +2,7 @@
   "profiles": {
     "DrxTransfer": {
       "commandName": "Project",
-      "commandLineArgs": "-n \"Administrator\" -p \"11111\" -f \"C:\\test.txt\" -a \"import\" -j \"ApprovalRule\""
-    },
-    "WSL": {
-      "commandName": "WSL2",
-      "distributionName": ""
+      "commandLineArgs": "transfer export \"C:\\test.txt\" ApprovalRule -n administrator -p \"11111\""
     }
   }
 }

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <var name="INTEGRATION_SERVICE_URL" value="https://localhost/Integration/odata" />
+  <var name="INTEGRATION_SERVICE_REQUEST_TIMEOUT" value="600" />
+  <var name="ARIO_TIMEOUT" value="600" />
+  <var name="LOGS_PATH" value="${basedir}/../../log/" />
+</settings>

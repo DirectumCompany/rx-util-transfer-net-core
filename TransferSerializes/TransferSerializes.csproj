@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\source\DrxTransfer\DrxTransfer\bin\Debug\netcoreapp3.1\Entities\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DrxTransfer\DrxTransfer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Sungero.Logging">
+      <HintPath>..\..\..\DirectumRX\etc\_builds_bin\SungeroWebServer\Sungero.Logging.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

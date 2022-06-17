@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Ct9nQqjDqWfuvy/AWU6um7aWUsTILqIvPgqzYm+mg3o33xo9u4R6O8twPOWVPgUXkIDmnIXsMq9doV0v08Y/w==",
+  "dgSpecHash": "0Ips8ojNwQM7Z619HthGgdXoU4O+NHiKvxHI9dD2i161fI5Q/ZVMBSYaGfOO6358WviUx53L8mITWlLXrxLARA==",
   "success": true,
-  "projectFilePath": "C:\\source\\DrxTransfer\\DrxTransfer\\DrxTransfer.csproj",
+  "projectFilePath": "C:\\source\\DrxTransfer\\TransferSerializes\\TransferSerializes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ryabov_PI\\.nuget\\packages\\configsettings\\1.0.12\\configsettings.1.0.12.nupkg.sha512",
     "C:\\Users\\Ryabov_PI\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
