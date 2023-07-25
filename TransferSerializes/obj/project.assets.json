@@ -5,19 +5,27 @@
       "ConfigSettings/1.0.12": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/ConfigSettings.dll": {}
+          "lib/netstandard2.0/ConfigSettings.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/ConfigSettings.dll": {}
+          "lib/netstandard2.0/ConfigSettings.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.CSharp/4.4.1": {
@@ -32,10 +40,14 @@
       "Microsoft.Data.Edm/5.8.5": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {}
+          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {}
+          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
+            "related": ".xml"
+          }
         },
         "resource": {
           "lib/netstandard1.1/de/Microsoft.Data.Edm.resources.dll": {
@@ -74,10 +86,14 @@
           "System.Spatial": "[5.8.5]"
         },
         "compile": {
-          "lib/netstandard1.1/Microsoft.Data.OData.dll": {}
+          "lib/netstandard1.1/Microsoft.Data.OData.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/Microsoft.Data.OData.dll": {}
+          "lib/netstandard1.1/Microsoft.Data.OData.dll": {
+            "related": ".xml"
+          }
         },
         "resource": {
           "lib/netstandard1.1/de/Microsoft.Data.OData.resources.dll": {
@@ -117,10 +133,14 @@
           "Microsoft.Spatial": "[7.9.4]"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.OData.Core.dll": {}
+          "lib/netstandard2.0/Microsoft.OData.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.OData.Core.dll": {}
+          "lib/netstandard2.0/Microsoft.OData.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.OData.Edm/7.9.4": {
@@ -131,37 +151,53 @@
           "System.Text.Json": "4.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.OData.Edm.dll": {}
+          "lib/netstandard2.0/Microsoft.OData.Edm.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.OData.Edm.dll": {}
+          "lib/netstandard2.0/Microsoft.OData.Edm.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Spatial/7.9.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Spatial.dll": {}
+          "lib/netstandard2.0/Microsoft.Spatial.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Spatial.dll": {}
+          "lib/netstandard2.0/Microsoft.Spatial.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NLog/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NLog.dll": {}
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/NLog.dll": {}
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Simple.OData.Client/5.26.0": {
@@ -172,14 +208,22 @@
           "System.Text.Json": "[6.0.0, 7.0.0)"
         },
         "compile": {
-          "lib/netstandard2.0/Simple.OData.Client.Core.dll": {},
-          "lib/netstandard2.0/Simple.OData.Client.Dynamic.dll": {},
+          "lib/netstandard2.0/Simple.OData.Client.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Simple.OData.Client.Dynamic.dll": {
+            "related": ".xml"
+          },
           "lib/netstandard2.0/Simple.OData.Client.V3.Adapter.dll": {},
           "lib/netstandard2.0/Simple.OData.Client.V4.Adapter.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Simple.OData.Client.Core.dll": {},
-          "lib/netstandard2.0/Simple.OData.Client.Dynamic.dll": {},
+          "lib/netstandard2.0/Simple.OData.Client.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/netstandard2.0/Simple.OData.Client.Dynamic.dll": {
+            "related": ".xml"
+          },
           "lib/netstandard2.0/Simple.OData.Client.V3.Adapter.dll": {},
           "lib/netstandard2.0/Simple.OData.Client.V4.Adapter.dll": {}
         }
@@ -191,19 +235,27 @@
           "system.memory": "4.5.4"
         },
         "compile": {
-          "lib/netstandard2.0/System.CommandLine.dll": {}
+          "lib/netstandard2.0/System.CommandLine.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.CommandLine.dll": {}
+          "lib/netstandard2.0/System.CommandLine.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "System.ComponentModel.Composition/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/System.ComponentModel.Composition.dll": {}
+          "lib/netcoreapp3.1/System.ComponentModel.Composition.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.ComponentModel.Composition.dll": {}
+          "lib/netcoreapp3.1/System.ComponentModel.Composition.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -221,10 +273,14 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -233,10 +289,14 @@
       "System.Spatial/5.8.5": {
         "type": "package",
         "compile": {
-          "lib/netstandard1.1/System.Spatial.dll": {}
+          "lib/netstandard1.1/System.Spatial.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard1.1/System.Spatial.dll": {}
+          "lib/netstandard1.1/System.Spatial.dll": {
+            "related": ".xml"
+          }
         },
         "resource": {
           "lib/netstandard1.1/de/System.Spatial.resources.dll": {
@@ -274,10 +334,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/System.Text.Encodings.Web.dll": {}
+          "lib/netcoreapp3.1/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Text.Encodings.Web.dll": {}
+          "lib/netcoreapp3.1/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -290,10 +354,14 @@
           "System.Text.Encodings.Web": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/System.Text.Json.dll": {}
+          "lib/netcoreapp3.1/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Text.Json.dll": {}
+          "lib/netcoreapp3.1/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -932,24 +1000,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ryabov_PI\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Администратор\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\DrxTransfer\\TransferSerializes\\TransferSerializes.csproj",
+      "projectUniqueName": "C:\\Source\\rx-util-transfer-net-core\\TransferSerializes\\TransferSerializes.csproj",
       "projectName": "TransferSerializes",
-      "projectPath": "C:\\source\\DrxTransfer\\TransferSerializes\\TransferSerializes.csproj",
-      "packagesPath": "C:\\Users\\Ryabov_PI\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\DrxTransfer\\TransferSerializes\\obj\\",
+      "projectPath": "C:\\Source\\rx-util-transfer-net-core\\TransferSerializes\\TransferSerializes.csproj",
+      "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+      "outputPath": "C:\\Source\\rx-util-transfer-net-core\\TransferSerializes\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ryabov_PI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -963,8 +1026,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\source\\DrxTransfer\\DrxTransfer\\DrxTransfer.csproj": {
-              "projectPath": "C:\\source\\DrxTransfer\\DrxTransfer\\DrxTransfer.csproj"
+            "C:\\Source\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj": {
+              "projectPath": "C:\\Source\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj"
             }
           }
         }
@@ -984,7 +1047,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -993,7 +1057,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
