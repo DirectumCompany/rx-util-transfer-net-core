@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrxTransfer", "DrxTransfer\DrxTransfer.csproj", "{160424E2-C322-44A4-9B4E-F561F62CC303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferSerializes", "TransferSerializes\TransferSerializes.csproj", "{86DB1F9D-E960-41B4-B637-E4B98889739B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{160424E2-C322-44A4-9B4E-F561F62CC303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160424E2-C322-44A4-9B4E-F561F62CC303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160424E2-C322-44A4-9B4E-F561F62CC303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160424E2-C322-44A4-9B4E-F561F62CC303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DB1F9D-E960-41B4-B637-E4B98889739B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DB1F9D-E960-41B4-B637-E4B98889739B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DB1F9D-E960-41B4-B637-E4B98889739B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DB1F9D-E960-41B4-B637-E4B98889739B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDAFC379-88AF-46B9-85CF-02DA16D9E10C}
+	EndGlobalSection
+EndGlobal
