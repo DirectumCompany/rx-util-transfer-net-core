@@ -2,7 +2,7 @@
   "profiles": {
     "DrxTransfer": {
       "commandName": "Project",
-      "commandLineArgs": "transfer export \"C:\\test.txt\" ApprovalRule -n administrator -p \"11111\""
+      "commandLineArgs": "transfer import \"C:\\test.txt\" DocumentKind -n administrator -p \"11111\""
     }
   }
 }
