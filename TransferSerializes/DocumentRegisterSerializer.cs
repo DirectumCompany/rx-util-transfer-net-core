@@ -34,10 +34,13 @@ namespace TransferSerializes
         return;
       }
 
-      var registrationGroup = IntegrationServiceClient
-        .GetEntitiesWithFilter<IRegistrationGroups>(r => r.Name == documentRegister.RegistrationGroup.Name && r.Index == documentRegister.RegistrationGroup.Index && r.Status == "Active")
-        .FirstOrDefault();
-      documentRegister.RegistrationGroup = registrationGroup;
+      if (documentRegister.RegistrationGroup != null)
+      {
+        var registrationGroup = IntegrationServiceClient
+          .GetEntitiesWithFilter<IRegistrationGroups>(r => r.Name == documentRegister.RegistrationGroup.Name && r.Index == documentRegister.RegistrationGroup.Index && r.Status == "Active")
+          .FirstOrDefault();
+        documentRegister.RegistrationGroup = registrationGroup;
+      }
 
       var numberFormatItems = documentRegister.NumberFormatItems;
       documentRegister.NumberFormatItems = null;
