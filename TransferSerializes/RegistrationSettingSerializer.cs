@@ -59,7 +59,8 @@ namespace TransferSerializes
           .NavigateTo(x => x.BusinessUnits).Set(new { BusinessUnit = businessUnit }).InsertEntryAsync().Wait();
       }
 
-      if (newRegistrationSetting.DocumentRegister == null)
+      // Обновляем сущность, т.к. коробочная логика затирает поле журнал регистрации, если он не регистрируемый.
+      if (newRegistrationSetting.SettingType != "Registration")
       {
         newRegistrationSetting.DocumentRegister = documentRegister;
         newRegistrationSetting = IntegrationServiceClient.UpdateEntity<IRegistrationSettings>(newRegistrationSetting);
