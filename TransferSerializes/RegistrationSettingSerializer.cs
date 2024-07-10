@@ -58,6 +58,12 @@ namespace TransferSerializes
         IntegrationServiceClient.Instance.For<IRegistrationSettings>().Key(newRegistrationSetting)
           .NavigateTo(x => x.BusinessUnits).Set(new { BusinessUnit = businessUnit }).InsertEntryAsync().Wait();
       }
+
+      if (newRegistrationSetting.DocumentRegister == null)
+      {
+        newRegistrationSetting.DocumentRegister = documentRegister;
+        newRegistrationSetting = IntegrationServiceClient.UpdateEntity<IRegistrationSettings>(newRegistrationSetting);
+      }
     }
 
     protected override IEnumerable<dynamic> Export()
