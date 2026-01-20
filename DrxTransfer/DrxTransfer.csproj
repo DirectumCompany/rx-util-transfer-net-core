@@ -9,7 +9,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="ConfigSettings" Version="1.0.12" />
-		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 		<PackageReference Include="NLog" Version="5.0.0" />
 		<PackageReference Include="Simple.OData.Client" Version="5.26.0" />
 		<PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20574.7" />
@@ -17,9 +17,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Reference Include="Sungero.Logging">
-			<HintPath>..\..\..\DirectumRX\etc\_builds_bin\SungeroWebServer\Sungero.Logging.dll</HintPath>
-		</Reference>
+	  <Reference Include="Sungero.Logging">
+	    <HintPath>..\..\..\DirectumRX253\etc\_builds_bin\SungeroWebServer\Sungero.Logging.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,12 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DrxTransfer\DrxTransfer.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="Sungero.Logging">
-      <HintPath>..\..\..\DirectumRX\etc\_builds_bin\SungeroWebServer\Sungero.Logging.dll</HintPath>
+      <HintPath>..\..\..\DirectumRX253\etc\_builds_bin\SungeroWebServer\Sungero.Logging.dll</HintPath>
     </Reference>
   </ItemGroup>
 

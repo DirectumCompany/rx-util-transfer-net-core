@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkDirectum\\Tasks\\transfer\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj": {}
+    "C:\\repositories\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj": {}
   },
   "projects": {
-    "C:\\WorkDirectum\\Tasks\\transfer\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj": {
+    "C:\\repositories\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkDirectum\\Tasks\\transfer\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj",
+        "projectUniqueName": "C:\\repositories\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj",
         "projectName": "DrxTransfer",
-        "projectPath": "C:\\WorkDirectum\\Tasks\\transfer\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj",
-        "packagesPath": "C:\\Users\\work\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkDirectum\\Tasks\\transfer\\rx-util-transfer-net-core\\DrxTransfer\\obj\\",
+        "projectPath": "C:\\repositories\\rx-util-transfer-net-core\\DrxTransfer\\DrxTransfer.csproj",
+        "packagesPath": "C:\\Users\\Kapshin_VY\\.nuget\\packages\\",
+        "outputPath": "C:\\repositories\\rx-util-transfer-net-core\\DrxTransfer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\work\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kapshin_VY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +25,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,13 +38,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -59,7 +54,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.4, )"
             },
             "Simple.OData.Client": {
               "target": "Package",
@@ -80,35 +75,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.32, 3.1.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
